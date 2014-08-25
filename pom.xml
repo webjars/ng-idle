@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>ng-idle</artifactId>
-    <version>0.3.6-SNAPSHOT</version>
+    <version>0.3.5-1-SNAPSHOT</version>
     <name>Ng-Idle</name>
     <description>WebJar for Ng-Idle</description>
     <url>http://webjars.org</url>
@@ -27,7 +27,7 @@
                     "ng-idle": "angular-idle"
                 },
                 "shim": {
-                    "ng-idle": ["angularjs"]
+                    "ng-idle": ["angular"]
                 }
             }
         </requirejs>
