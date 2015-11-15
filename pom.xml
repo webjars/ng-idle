@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>ng-idle</artifactId>
-    <version>1.1.0-SNAPSHOT</version>
+    <version>1.1.0</version>
     <name>Ng-Idle</name>
     <description>WebJar for Ng-Idle</description>
     <url>http://webjars.org</url>
@@ -53,7 +53,7 @@
         <url>http://github.com/webjars/ng-idle</url>
         <connection>scm:git:https://github.com/webjars/ng-idle.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/ng-idle.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>ng-idle-1.1.0</tag>
     </scm>
     
     <dependencies>
@@ -76,10 +76,10 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <mkdir dir="${destDir}"/>
-                                <get src="${upstream.url}/angular-idle.js" dest="${destDir}"/>
-                                <get src="${upstream.url}/angular-idle.map" dest="${destDir}"/>
-                                <get src="${upstream.url}/angular-idle.min.js" dest="${destDir}"/>
+                                <mkdir dir="${destDir}" />
+                                <get src="${upstream.url}/angular-idle.js" dest="${destDir}" />
+                                <get src="${upstream.url}/angular-idle.map" dest="${destDir}" />
+                                <get src="${upstream.url}/angular-idle.min.js" dest="${destDir}" />
                             </target>
                         </configuration>
                     </execution>
